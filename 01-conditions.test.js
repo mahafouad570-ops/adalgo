@@ -18,7 +18,16 @@ describe("estPositif", () => {
 // Même pattern qu'estPositif — écris les 3 tests toi-même.
 // Cas à couvrir : un nombre pair, un nombre impair, zéro.
 describe("estPair", () => {
-  // à compléter
+  // Tests Exo 2 écrits par moi 
+    it("retourne true pour un nombre pair", () => {
+    expect(estPair(4)).toBe(true)
+  })
+  it("retourne false pour un nombre impair", () => {
+    expect(estPair(-5)).toBe(false)
+  })
+  it("retourne true pour zéro", () => {
+    expect(estPair(0)).toBe(true)
+  })
 })
 
 // Nouveau pattern : deux paramètres, cas d'égalité.

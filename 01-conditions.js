@@ -25,7 +25,13 @@ export const estPositif = (n) => {
  * @example estPair(4) → true / estPair(7) → false
  */
 export const estPair = (n) => {
-  // à compléter
+  // Exo 2 terminé
+  // if (n % 2 === 0) {
+  //   return true
+  // } else {
+  //   return false
+  // }
+  return n % 2 === 0;
 }
 
 /**

@@ -7,3 +7,12 @@ recevoir un nombre(n)
     retourner false
   fin si
 fin
+## Exo 2 - estPair
+DEBUT
+recevoir un nombre(n)
+   si le reste de n divisé par 2 est égal à 0 alors
+       retourner true 
+   sinon 
+       retourner false 
+   fin si 
+ FIN
