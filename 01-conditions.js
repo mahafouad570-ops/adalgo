@@ -42,7 +42,12 @@ export const estPair = (n) => {
  * @example max(3, 7) → 7
  */
 export const max = (a, b) => {
-  // à compléter
+  // Exo 3 terminé
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
 }
 
 /**

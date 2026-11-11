@@ -16,3 +16,12 @@ recevoir un nombre(n)
        retourner false 
    fin si 
  FIN
+ ## Exo 3 - max
+ DEBUT
+ recevoir deux nombres (a,b)
+ si a > b alors
+   retourner a
+sinon 
+   retourner b
+fin si
+FIN
