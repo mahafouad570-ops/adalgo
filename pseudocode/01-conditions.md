@@ -25,3 +25,18 @@ sinon
    retourner b
 fin si
 FIN
+## Exo 4 - mention
+DEBUT
+recevoir une note 
+si note >= 16 alors 
+retourner "Très bien"
+sinon si note >= 14 alors
+retourner "Bien"
+sinon si note >= 12 alors
+retourner "Assez bien"
+sinon si note >= 10 alors
+retourner "Passable"
+sinon si note < 10 alors
+retourner "Insuffisant"
+fin si 
+FIN
