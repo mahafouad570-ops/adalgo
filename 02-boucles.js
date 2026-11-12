@@ -38,7 +38,13 @@ export const afficherPairs = (n) => {
  * @example somme(5) → 15  (1+2+3+4+5)
  */
 export const somme = (n) => {
-  // à compléter
+  // Exo 3 terminé
+  let total = 0;
+  for  (let i = 1; i <= n; i++)  {
+    total = total + i;
+
+    }
+  return total;
 }
 
 /**

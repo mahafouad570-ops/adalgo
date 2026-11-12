@@ -15,3 +15,13 @@ recevoir un nombre (n)
     FIN SI 
   FIN POUR
 FIN
+
+## Exo 3 - somme
+DEBUT
+recevoir un nombre (n)
+  total <- 0
+  pour i allant de 1 à n FAIRE
+    total <- total + i
+ fin pour 
+ retourner total
+FIN
