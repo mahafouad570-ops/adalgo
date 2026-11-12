@@ -9,7 +9,14 @@
  * @example maximum([3, 7, 2, 9, 1]) → 9
  */
 export const maximum = (tableau) => {
-  // à compléter
+  // Exo 1terminé
+  let max = tableau[0];
+  for (let i = 0; i < tableau.length; i++) {
+    if (tableau[i] > max ) {
+      max = tableau[i];
+    }
+  }
+  return max;
 }
 
 /**
