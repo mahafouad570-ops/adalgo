@@ -35,3 +35,15 @@ recevoir un nombre (n)
  fin pour 
  retourner resultat
 FIN
+
+## Exo 5 - compterPairs
+DEBUT
+recevoir un nombre (n)
+  compteur <- 0
+  pour i allant de 1 à n FAIRE
+    si i % 2 === 0 ALORS 
+      compteur <- compteur + 1
+    fin si
+ fin pour 
+ retourner compteur
+FIN
