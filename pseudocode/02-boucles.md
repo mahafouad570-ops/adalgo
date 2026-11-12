@@ -47,3 +47,13 @@ recevoir un nombre (n)
  fin pour 
  retourner compteur
 FIN
+
+## Exo 6 - table
+DEBUT
+recevoir un nombre (n)
+  tableau <- []
+  pour i allant de 1 à n FAIRE
+    ajouter n * i dans tableau
+ fin pour 
+ retourner tableau
+FIN

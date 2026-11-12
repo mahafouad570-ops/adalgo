@@ -93,7 +93,12 @@ export const compterPairs = (n) => {
  * @example table(0) → []
  */
 export const table = (n) => {
-  // à compléter
+  // Exo 6 terminé
+  const tableau = []
+  for (let i = 1; i <= n; i++) {
+    tableau.push(n * i);
+  }
+  return tableau;
 }
 
 /**
