@@ -56,7 +56,13 @@ export const somme = (n) => {
  * @example produit(0) → 1
  */
 export const produit = (n) => {
-  // à compléter
+  // Exo 4 terminé
+  let resultat = 1;
+  for  (let i = 1; i <= n; i++)  {
+    resultat = resultat * i;
+
+    }
+  return resultat;
 }
 
 /**

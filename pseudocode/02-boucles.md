@@ -25,3 +25,13 @@ recevoir un nombre (n)
  fin pour 
  retourner total
 FIN
+
+## Exo 4 - produit
+DEBUT
+recevoir un nombre (n)
+  resultat <- 1
+  pour i allant de 1 à n FAIRE
+    resultat <- resultat * i
+ fin pour 
+ retourner resultat
+FIN
