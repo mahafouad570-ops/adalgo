@@ -34,3 +34,14 @@ recevoir un tableau
  fin pour 
  retourner total / longueur du tableau
 FIN
+
+## Exo 4 - contient
+DEBUT
+recevoir un tableau et une valeur
+  pour i allant de 0 à longueur du tableau - 1 FAIRE
+  si tableau[i] === valeur ALORS
+    retourner true
+ fin si 
+ fin pour 
+ retourner false
+FIN
