@@ -21,3 +21,16 @@ FIN
   FIN POUR
    retourner mini
 FIN
+
+## Exo 3 - moyenne
+DEBUT
+recevoir un tableau
+  si longueur du tableau === 0 ALORS
+    retourner null
+ fin si 
+  total <- 0
+  pour i allant de 0 à longueur du tableau - 1 FAIRE
+    total <- total + tableau[i]
+ fin pour 
+ retourner total / longueur du tableau
+FIN

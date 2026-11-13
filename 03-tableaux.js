@@ -43,7 +43,15 @@ export const minimum = (tableau) => {
  * @example moyenne([2, 4, 6]) → 4 / moyenne([]) → null
  */
 export const moyenne = (tableau) => {
-  // à compléter
+  // Exo 3 terminé
+  if (tableau.length === 0) {
+    return null;
+  }
+  let total = 0
+  for (let i = 0; i < tableau.length; i++) {
+    total = total + tableau[i]
+  }
+  return total / tableau.length;
 }
 
 /**
