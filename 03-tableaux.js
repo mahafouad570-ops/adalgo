@@ -26,7 +26,14 @@ export const maximum = (tableau) => {
  * @example minimum([3, 7, 2, 9, 1]) → 1
  */
 export const minimum = (tableau) => {
-  // à compléter
+  // Exo 2 terminé
+  let mini = tableau[0];
+  for (let i = 0; i < tableau.length; i++) {
+    if (tableau[i] < mini ) {
+      mini = tableau[i];
+    }
+  }
+  return mini;
 }
 
 /**
