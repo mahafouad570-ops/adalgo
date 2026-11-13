@@ -80,7 +80,15 @@ export const contient = (tableau, valeur) => {
  * @example compter([1, 2, 2, 3, 2], 2) → 3
  */
 export const compter = (tableau, valeur) => {
-  // à compléter
+  // Exo 5 terminé
+  let compteur = 0
+   for (let i = 0; i < tableau.length; i++) {
+    
+    if (tableau[i] === valeur) {
+       compteur = compteur + 1;
+    }
+  }
+  return compteur;
 }
 
 /**

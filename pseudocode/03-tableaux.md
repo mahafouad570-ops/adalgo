@@ -45,3 +45,15 @@ recevoir un tableau et une valeur
  fin pour 
  retourner false
 FIN
+
+## Exo 5 - compter
+DEBUT
+recevoir un tableau et une valeur
+  compteur <- 0
+  pour i allant de 0 à longueur du tableau - 1 FAIRE
+  si tableau[i] === valeur ALORS
+    compteur <- compteur + 1
+ fin si 
+ fin pour 
+ retourner compteur
+FIN
