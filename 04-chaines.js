@@ -9,7 +9,13 @@
  * @example inverserChaine("bonjour") → "ruojnob"
  */
 export const inverserChaine = (chaine) => {
-  // à compléter
+  // Exo 1 terminé
+  let resultat = "";
+  for (let i = chaine.length -1; i >= 0; i--) {
+    resultat = resultat + chaine[i];
+  }
+      return resultat;
+
 }
 
 /**
