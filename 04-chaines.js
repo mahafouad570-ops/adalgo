@@ -25,7 +25,8 @@ export const inverserChaine = (chaine) => {
  * @example estPalindrome("kayak") → true / estPalindrome("bonjour") → false
  */
 export const estPalindrome = (chaine) => {
-  // à compléter
+  // Exo 2 terminé
+  return chaine === inverserChaine(chaine);
 }
 
 /**
