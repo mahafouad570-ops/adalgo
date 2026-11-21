@@ -36,7 +36,15 @@ export const estPalindrome = (chaine) => {
  * @example compterVoyelles("bonjour") → 3
  */
 export const compterVoyelles = (chaine) => {
-  // à compléter
+  // Exo 3 terminé
+  const voyelles = "aeiouy";
+  let compteur = 0;
+  for (let i = 0; i < chaine.length; i++) {
+    if (voyelles.includes(chaine[i])) {
+      compteur = compteur + 1;
+    }  
+  }
+  return compteur;
 }
 
 /**

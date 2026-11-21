@@ -14,3 +14,15 @@ recevoir une chaine
   retourner chaine === inverserChaine(chaine)
 FIN
 
+## Exo 3 - compterVoyelles
+DEBUT
+recevoir une chaine
+  voyelles <- "aeiouy"
+  compteur <- 0
+  pour i allant de 0 à  longueur de la chaine - 1  FAIRE
+    si vouelles contient chaine[i] ALORS 
+    compteur <- compteur + 1
+  fin si 
+ fin pour 
+ retourner compteur
+FIN
